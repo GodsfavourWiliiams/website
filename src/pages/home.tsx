@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import Header from '../components/common/header';
 import Hero from '../components/common/hero';
 import Particles from '../components/ui/particles';
+import About from '../components/about';
+import Contact from '../components/contact';
 
 const Home = () => {
   const [isDarkMode, setDarkMode] = useState<boolean>(() =>
@@ -32,6 +34,8 @@ const Home = () => {
 
       <Header toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} />
       <Hero />
+      <About />
+      <Contact />
     </div>
   );
 };

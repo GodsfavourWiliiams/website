@@ -24,7 +24,7 @@ const Hero = () => {
               />
             </div>
             <h1 className="pointer-events-none z-10 whitespace-pre-wrap text-center text-lg sm:text-2xl md:text-4xl font-semibold dark:text-light-text text-deep-text ">
-              Godsfavour Williams
+              Hi, I'm Godsfavour Williams 👋
             </h1>
 
             <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 ">
