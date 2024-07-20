@@ -10,14 +10,16 @@ const Hero = () => {
       <div className="flex flex-col items-center text-center justify-center max-w-lg md:max-w-xl w-full gap-6">
         <div className="grid text-center gap-3">
           <div className="border-[3.5px] dark:border-white w-32 h-32 grid place-items-center rounded-full p-2 justify-self-center">
-            <Image
-              src="/images/casual-life-3d-boy-sitting-at-the-desk-with-open-book.svg"
-              alt="profile-picture"
-              className="object-fit"
-              unoptimized
-              width={100}
-              height={100}
-            />
+            <BlurFade delay={0.15} inView>
+              <Image
+                src="/images/casual-life-3d-boy-sitting-at-the-desk-with-open-book.svg"
+                alt="profile-picture"
+                className="object-fit"
+                unoptimized
+                width={100}
+                height={100}
+              />
+            </BlurFade>
           </div>
           <BlurFade delay={0.25} inView>
             <h1 className="pointer-events-none z-10 whitespace-pre-wrap text-center text-lg sm:text-2xl md:text-4xl font-semibold dark:text-light-text text-deep-text ">

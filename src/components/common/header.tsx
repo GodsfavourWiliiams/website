@@ -25,16 +25,19 @@ const Header: FC<HeaderProps> = ({ toggleTheme, theme }) => {
         <AppLogo />
       </Link>
 
-      <button onClick={toggleTheme} className="p-4">
+      <button
+        onClick={toggleTheme}
+        className="p-4 text-gray-900 dark:text-white text-xs"
+      >
         {theme === 'dark' ? (
           <span className="flex items-center w-full gap-3">
             <SunIcon className="text-gray-900 dark:text-white" />
-            <span className="text-xs text-white">Light</span>
+            <span>Light</span>
           </span>
         ) : (
           <span className="flex items-center w-full gap-3">
             <MoonIcon className="text-gray-900 dark:text-white" />
-            <span className="text-xs text-gray-900">Dark</span>
+            <span>Dark</span>
           </span>
         )}
       </button>
