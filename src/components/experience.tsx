@@ -58,7 +58,7 @@ export const Experience: React.FC<{}> = () => {
                     height={100}
                     src={card.src}
                     alt={card.company}
-                    className="h-14 w-14 rounded-lg object-contain border p-1.5"
+                    className="h-14 w-14 rounded-lg object-contain border p-1.5 bg-white"
                   />
                 </motion.div>
                 <div>
