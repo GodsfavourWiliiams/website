@@ -10,16 +10,16 @@ export const cards = [
     content: () => {
       return (
         <p>
-          Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-          her melancholic and cinematic music style. Born Elizabeth Woolridge
-          Grant in New York City, she has captivated audiences worldwide with
-          her haunting voice and introspective lyrics. <br /> <br /> Her songs
-          often explore themes of tragic romance, glamour, and melancholia,
-          drawing inspiration from both contemporary and vintage pop culture.
-          With a career that has seen numerous critically acclaimed albums, Lana
-          Del Rey has established herself as a unique and influential figure in
-          the music industry, earning a dedicated fan base and numerous
-          accolades.
+          At Page Financial, I led the development of a highly scalable HRMS
+          application (Meld) using Next.js, TypeScript, and Tailwind CSS,
+          resulting in significant enhancements in system performance. I built
+          an advanced replica of Google Forms within the application, featuring
+          the capability to direct specific questions to selected individuals in
+          the organization.
+          <br /> <br /> I also developed a comprehensive payroll feature from
+          scratch to manage the organization&apos;s payments efficiently and
+          created a customizable setup section for fields and documents,
+          enabling the organization to define mandatory user fields.
         </p>
       );
     },
@@ -35,15 +35,20 @@ export const cards = [
     content: () => {
       return (
         <p>
-          Babu Maan, a legendary Punjabi singer, is renowned for his soulful
-          voice and profound lyrics that resonate deeply with his audience. Born
-          in the village of Khant Maanpur in Punjab, India, he has become a
-          cultural icon in the Punjabi music industry. <br /> <br /> His songs
-          often reflect the struggles and triumphs of everyday life, capturing
-          the essence of Punjabi culture and traditions. With a career spanning
-          over two decades, Babu Maan has released numerous hit albums and
-          singles that have garnered him a massive fan following both in India
-          and abroad.
+          At Tecmie, I played a pivotal role in developing ApplyBetter, a
+          comprehensive job search and application tracking system using
+          Next.js, TypeScript, Tailwind CSS, TRPC, and Supabase. I built a range
+          of sophisticated features to enhance job application management. Users
+          can create accounts, upload professional details, and utilize an AI
+          assistant to draft their resumes. <br /> <br /> The AI assistant also
+          identifies and recommends job roles that match user profiles. I
+          developed an auto-apply feature that submits personalized
+          applications, including tailored messages, resumes, and cover letters,
+          on behalf of users. The platform also helps users discover top
+          companies based on fit and compensation, evaluate job opportunities
+          with detailed criteria, and track their applications seamlessly.
+          Furthermore, I integrated real-time updates by syncing users inboxes,
+          calendars, and drives.
         </p>
       );
     },
@@ -60,15 +65,15 @@ export const cards = [
     content: () => {
       return (
         <p>
-          Metallica, an iconic American heavy metal band, is renowned for their
-          powerful sound and intense performances that resonate deeply with
-          their audience. Formed in Los Angeles, California, they have become a
-          cultural icon in the heavy metal music industry. <br /> <br /> Their
-          songs often reflect themes of aggression, social issues, and personal
-          struggles, capturing the essence of the heavy metal genre. With a
-          career spanning over four decades, Metallica has released numerous hit
-          albums and singles that have garnered them a massive fan following
-          both in the United States and abroad.
+          At Landa Learn, I engineered the course platform using Next.js and
+          TypeScript, focusing on developing responsive and intuitive user
+          interfaces, leading to enhanced user engagement and satisfaction. I
+          integrated Stripe and Paystack into the payment feature and oversaw
+          the implementation of the course-creation editor form throughout the
+          application, ensuring its consistent functionality and usability.{' '}
+          <br /> <br /> Additionally, I successfully trained and mentored a
+          group of interns, helping them develop their skills and contribute
+          effectively to the team&apos;s projects.
         </p>
       );
     },
@@ -80,17 +85,19 @@ export const cards = [
     ctaText: 'View',
     ctaLink: 'https://ui.aceternity.com/templates',
     period: 'January 2021 - October 2022',
+    images: ['/images/otif-shot.jpeg'],
     content: () => {
       return (
         <p>
-          Led Zeppelin, a legendary British rock band, is renowned for their
-          innovative sound and profound impact on the music industry. Formed in
-          London in 1968, they have become a cultural icon in the rock music
-          world. <br /> <br /> Their songs often reflect a blend of blues, hard
-          rock, and folk music, capturing the essence of the 1970s rock era.
-          With a career spanning over a decade, Led Zeppelin has released
-          numerous hit albums and singles that have garnered them a massive fan
-          following both in the United Kingdom and abroad.
+          At OTIF, I developed and maintained the freight tracking section using
+          React.js and Bootstrap to monitor and manage shipments in real time,
+          ensuring accurate delivery schedules and order statuses for express
+          shipping, truck freight, and sea freight. <br /> <br /> I built a
+          comprehensive dashboard that includes a variety of charts and graphs
+          to track OTIF (On-Time In-Full) performance over time and integrated
+          advanced filters to allow for detailed data analysis and better
+          decision-making. Additionally, I conducted daily maintenance of code,
+          debugging issues, and resolving client problems.
         </p>
       );
     },

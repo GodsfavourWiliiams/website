@@ -8,8 +8,8 @@ const About = () => {
     <section className="flex flex-col items-start justify-start max-w-2xl mx-auto relative z-20">
       <BlurFade delay={0.25 * 4}>
         <div className="flex items-center gap-2 mb-2">
-          <span className="text-lg sm:text-2xl font-normal">About</span>
-          <span className="text-lg sm:text-2xl font-extrabold">Me 💼</span>
+          <h3 className="text-lg sm:text-2xl font-normal">About</h3>
+          <h3 className="text-lg sm:text-2xl font-bold">Me 💼</h3>
         </div>
       </BlurFade>
       <BlurFade delay={0.25 * 4.5}>
