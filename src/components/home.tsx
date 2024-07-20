@@ -14,7 +14,7 @@ const Home = () => {
   };
 
   return (
-    <div className="relative h-auto w-full lg:px-0 px-4">
+    <div className="relative h-auto w-full lg:px-0 px-4 pb-20">
       <Particles
         className="absolute inset-0"
         quantity={100}

@@ -89,7 +89,7 @@ const Hero = () => {
         <BlurFade delay={0.25 * 3} inView>
           <span className="text-xs sm:text-sm md:text-base">
             Styling the user experience components that meet the requirements of
-            our mocks and fulfill our user stories is my Calling, believes in
+            our mocks and fulfill our user stories is my calling, believes in
             the power of community.
           </span>
         </BlurFade>

@@ -6,13 +6,13 @@ import BlurFade from './common/blur-fade';
 const About = () => {
   return (
     <section className="flex flex-col items-start justify-start max-w-2xl mx-auto relative z-20">
-      <BlurFade delay={0.25 * 4} inView>
+      <BlurFade delay={0.25 * 4}>
         <div className="flex items-center gap-2 mb-2">
           <span className="text-lg sm:text-2xl font-normal">About</span>
           <span className="text-lg sm:text-2xl font-extrabold">Me 💼</span>
         </div>
       </BlurFade>
-      <BlurFade delay={0.25 * 4.5} inView>
+      <BlurFade delay={0.25 * 4.5}>
         <p className="text-justify cursor-text text-xs sm:text-sm sm:mb-0">
           I&apos;m an experienced Frontend Engineer with 3 years of professional
           experience in bringing designs to life, passionate about digital
