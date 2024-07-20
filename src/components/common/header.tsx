@@ -1,7 +1,7 @@
 import { MoonIcon, SunIcon } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import { AppLogo } from './appLogo';
 import { FC } from 'react';
+import Link from 'next/link';
 
 interface HeaderProps {
   toggleDarkMode: () => void;
@@ -11,7 +11,7 @@ interface HeaderProps {
 const Header: FC<HeaderProps> = ({ toggleDarkMode, isDarkMode }) => {
   return (
     <div className="w-full md:px-10 sm:px-4 px-3 z-50 fixed inset-x-0 top-4 flex justify-between items-center transition-all duration-700 ease-in-out backdrop-blur-sm">
-      <Link to="/">
+      <Link href="/">
         <AppLogo />
       </Link>
 

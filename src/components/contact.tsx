@@ -1,7 +1,8 @@
+'use client';
+
 import { useState, useRef, useEffect, FormEvent } from 'react';
 import emailjs from 'emailjs-com';
-import { FaLocationArrow, FaSpinner } from 'react-icons/fa';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 
 const Contact: React.FC = () => {
   const [name, setName] = useState<string>('');
@@ -65,10 +66,13 @@ const Contact: React.FC = () => {
         <div className="w-full px-4 lg:w-6/12">
           <div className=" flex items-center sm:-mx-4">
             <div className="w-full px-3 sm:px-4">
-              <img
+              <Image
                 src="/images/casual-life-3d-girl-talking-on-retro-phone-and-smiling_result.svg"
                 alt=""
                 className="w-full h-auto"
+                width={50}
+                height={50}
+                unoptimized
               />
             </div>
           </div>
@@ -76,17 +80,13 @@ const Contact: React.FC = () => {
         <div className="w-full lg:w-5/12 mb-32 md:mb-40 lg:mb-16 mt-4">
           <div className="flex items-center mb-2 w-full">
             <h2 className="flex items-center text-green-400 font-semibold text-lg sm:text-2xl">
-              <ArrowLeft />
               03
-              <ArrowRight />
             </h2>
             <span className=" block text-md sm:text-base font-medium text-zinc-400">
               Have a Project in Mind? 💼
             </span>
             <h2 className="flex items-center text-green-400 font-semibold text-lg sm:text-2xl">
-              <ArrowLeft />
               /03
-              <ArrowRight />
             </h2>
           </div>
 
@@ -205,14 +205,10 @@ const Contact: React.FC = () => {
               <button className="bg-zinc-700 hover:bg-zinc-600 text-white p-4 rounded-md flex items-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-zinc-800">
                 {spin ? (
                   <div className="flex items-center">
-                    <FaSpinner />
                     <p className="ml-3"> Processing...</p>
                   </div>
                 ) : (
-                  <p className="flex items-center">
-                    Contact Me
-                    <FaLocationArrow className="ml-3" />
-                  </p>
+                  <p className="flex items-center">Contact Me</p>
                 )}
               </button>
             </div>

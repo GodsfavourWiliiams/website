@@ -1,9 +1,12 @@
+'use client';
+
 import { useEffect, useState } from 'react';
 import Header from '../components/common/header';
 import Hero from '../components/common/hero';
 import Particles from '../components/ui/particles';
 import About from '../components/about';
-import Contact from '../components/contact';
+import { Projects } from './projects';
+import { Experience } from './experience';
 
 const Home = () => {
   const [isDarkMode, setDarkMode] = useState<boolean>(() =>
@@ -35,7 +38,8 @@ const Home = () => {
       <Header toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} />
       <Hero />
       <About />
-      <Contact />
+      {/* <Projects /> */}
+      <Experience />
     </div>
   );
 };
