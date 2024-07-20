@@ -5,7 +5,7 @@ import BlurFade from './common/blur-fade';
 
 const About = () => {
   return (
-    <section className="flex flex-col items-start justify-start max-w-2xl mx-auto lg:px-0 sm:px-4 px-3 relative z-20">
+    <section className="flex flex-col items-start justify-start max-w-2xl mx-auto relative z-20">
       <BlurFade delay={0.25 * 4} inView>
         <div className="flex items-center gap-2 mb-2">
           <span className="text-lg sm:text-2xl font-normal">About</span>
