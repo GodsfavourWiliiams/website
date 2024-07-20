@@ -6,6 +6,7 @@ import Particles from '../components/ui/particles';
 import About from '../components/about';
 import { Experience } from './experience';
 import { useTheme } from 'next-themes';
+import { Education } from './education';
 
 const Home = () => {
   const { setTheme, theme } = useTheme();
@@ -27,6 +28,7 @@ const Home = () => {
       <Hero />
       <About />
       <Experience />
+      <Education />
     </div>
   );
 };

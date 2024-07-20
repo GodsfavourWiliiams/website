@@ -33,12 +33,12 @@ export const Experience: React.FC<{}> = () => {
   useOutsideClick(ref, () => setActive(null));
 
   return (
-    <div className="mt-10 z-30 relative max-w-2xl mx-auto w-full ">
+    <div className="mt-10 relative max-w-2xl mx-auto w-full ">
       <BlurFade delay={0.25 * 4}>
         <div className="flex items-center gap-2 mb-2">
-          <span className="text-lg sm:text-2xl font-normal">
+          <h3 className="text-lg sm:text-2xl font-normal">
             Work Experience
-          </span>
+          </h3>
         </div>
       </BlurFade>
 
@@ -58,6 +58,7 @@ export const Experience: React.FC<{}> = () => {
                     height={100}
                     src={card.src}
                     alt={card.company}
+                    unoptimized
                     className="h-14 w-14 rounded-lg object-contain border p-1.5 bg-white"
                   />
                 </motion.div>
@@ -115,7 +116,7 @@ export const Experience: React.FC<{}> = () => {
             >
               <motion.div
                 layoutId={`image-${active.company}-${id}`}
-                className="p-4 mt-20 sm:mt-0 flex gap-4 flex-col"
+                className="p-4 mt-5 sm:mt-0 flex gap-6 flex-col"
               >
                 <motion.button
                   key={`button-${active.company}-${id}`}
@@ -143,6 +144,7 @@ export const Experience: React.FC<{}> = () => {
                   height={200}
                   src={active?.images?.[0] ?? ''}
                   alt={active.company}
+                  unoptimized
                   className="w-full h-auto rounded-xl object-contain border"
                 />
               </motion.div>

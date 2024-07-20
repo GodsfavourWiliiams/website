@@ -8,19 +8,21 @@ const Hero = () => {
   return (
     <div className="flex items-center justify-center px-4 pt-52 pb-20">
       <div className="flex flex-col items-center text-center justify-center max-w-lg md:max-w-xl w-full gap-6">
-        <div className="grid text-center gap-3">
-          <div className="border-[3.5px] dark:border-white w-32 h-32 grid place-items-center rounded-full p-2 justify-self-center">
-            <BlurFade delay={0.15} inView>
-              <Image
-                src="/images/casual-life-3d-boy-sitting-at-the-desk-with-open-book.svg"
-                alt="profile-picture"
-                className="object-fit"
-                unoptimized
-                width={100}
-                height={100}
-              />
-            </BlurFade>
-          </div>
+        <div className="flex flex-col items-center justify-center text-center gap-3">
+          <BlurFade delay={0.2 * 1} inView className="grid text-center gap-3">
+            <div className="border-[3.5px] dark:border-white w-32 h-32 grid place-items-center rounded-full p-2 justify-self-center">
+              <BlurFade delay={0.2 * 1.5} inView>
+                <Image
+                  src="/images/casual-life-3d-boy-sitting-at-the-desk-with-open-book.svg"
+                  alt="profile-picture"
+                  className="object-fit"
+                  unoptimized
+                  width={100}
+                  height={100}
+                />
+              </BlurFade>
+            </div>
+          </BlurFade>
           <BlurFade delay={0.25} inView>
             <h1 className="pointer-events-none z-10 whitespace-pre-wrap text-center text-lg sm:text-2xl md:text-4xl font-semibold dark:text-light-text text-deep-text ">
               Hi, I&apos;m Godsfavour Williams 👋
@@ -89,7 +91,7 @@ const Hero = () => {
           </BlurFade>
         </div>
         <BlurFade delay={0.25 * 3} inView>
-          <span className="text-xs sm:text-sm md:text-base">
+          <span className="text-xs sm:text-sm">
             Styling the user experience components that meet the requirements of
             our mocks and fulfill our user stories is my calling, believes in
             the power of community.
