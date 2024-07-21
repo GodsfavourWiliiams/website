@@ -102,7 +102,7 @@ export const Experience: React.FC<{}> = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-white sm:bg-black/20 backdrop-blur-sm h-full w-full z-10"
+            className="fixed inset-0 bg-white sm:bg-black/20 backdrop-blur-sm h-full w-full z-40"
           />
         )}
       </AnimatePresence>
